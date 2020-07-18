@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> The Solar System </title>
-    </head>
-    <body>
+
+<%- include('partials/header.ejs') %>
+
         <h1> Welcome to the Solar System Site! </h1>
         <p> Click on a planet to know more about it: </p>
-        <img src="/img/solar_system.png" alt="The Solar System" />
-        
         <a href="/mercury"> Mercury </a> <br />
         <a href="/venus"> Venus </a> <br />
         Earth <br />
-    </body>
-</html>
+        
+     <img src="/img/solar_system.png" alt="The Solar System" />
+
+<%- include('partials/footer.ejs') %>
