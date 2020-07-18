@@ -9,12 +9,21 @@ app.get("/", function(req, res){
     res.render("index.html");
 });
 
+app.get("/index", function(req, res){
+  
+    res.render("index.html");
+});
+
 app.get("/mercury", function(req, res){
    res.render("mercury.html");
 });
 
 app.get("/venus", function(req, res){
     res.render("venus.html");
+});
+
+app.get("/earth", function(req, res){
+    res.render("earth.html");
 });
 
 
